@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "collections": "Collections",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "Fine Jewelry in the Heart of Skopje",
+    "subtitle": "Handcrafted pieces that tell your story",
+    "cta": "Discover Collections",
+    "cta2": "Contact Us"
+  },
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Biser Gold — Crafting Beauty Since 2000",
+    "text1": "Nestled in the heart of Skopje, North Macedonia, Biser Gold is a testament to timeless craftsmanship and refined elegance. Each piece in our collection is thoughtfully designed to celebrate life's most precious moments.",
+    "text2": "From delicate gold necklaces to statement rings, our artisans pour passion and precision into every creation — making jewelry that becomes part of your story.",
+    "stat1_num": "20+",
+    "stat1_label": "Years of Experience",
+    "stat2_num": "500+",
+    "stat2_label": "Unique Designs",
+    "stat3_num": "1000+",
+    "stat3_label": "Happy Clients"
+  },
+  "collections": {
+    "title": "Our Collections",
+    "subtitle": "Discover pieces crafted with passion",
+    "cta": "View All",
+    "items": [
+      { "id": 1, "name": "Gold Necklaces", "desc": "Timeless elegance in 18k & 24k gold" },
+      { "id": 2, "name": "Diamond Rings", "desc": "Celebrating love and milestones" },
+      { "id": 3, "name": "Bracelets", "desc": "From delicate to bold" },
+      { "id": 4, "name": "Earrings", "desc": "The perfect finishing touch" },
+      { "id": 5, "name": "Wedding Sets", "desc": "Begin your forever" },
+      { "id": 6, "name": "Custom Orders", "desc": "Your vision, our craft" }
+    ]
+  },
+  "contact": {
+    "title": "Find Us",
+    "subtitle": "We'd love to meet you",
+    "address": "Skopje City Center, North Macedonia",
+    "hours_title": "Opening Hours",
+    "hours": "Mon – Sat: 09:00 – 19:00",
+    "phone": "+389 XX XXX XXX",
+    "email": "info@bisergold.com",
+    "instagram": "@bisergold",
+    "form_name": "Your Name",
+    "form_email": "Your Email",
+    "form_message": "Your Message",
+    "form_send": "Send Message"
+  },
+  "footer": {
+    "tagline": "Handcrafted with love in Skopje",
+    "rights": "© 2024 Biser Gold. All rights reserved."
+  }
+}

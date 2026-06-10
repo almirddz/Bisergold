@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Kryefaqja",
+    "about": "Rreth nesh",
+    "collections": "Koleksionet",
+    "contact": "Kontakti"
+  },
+  "hero": {
+    "tagline": "Bizhuteri fine në zemër të Shkupit",
+    "subtitle": "Copa të punuara me dorë që tregojnë historinë tuaj",
+    "cta": "Zbulo Koleksionet",
+    "cta2": "Na Kontakto"
+  },
+  "about": {
+    "title": "Historia jonë",
+    "subtitle": "Biser Gold — Duke krijuar bukuri që nga viti 2000",
+    "text1": "E vendosur në zemër të Shkupit, Maqedonia e Veriut, Biser Gold është dëshmi e artizanisë së qëndisur dhe elegancës së rafinuar. Çdo copë në koleksionin tonë është projektuar me kujdes për të festuar momentet më të çmuara të jetës.",
+    "text2": "Nga gërdanet delikate të arit deri te unazat e fuqishme, artizanët tanë derdhin pasion dhe precizion në çdo krijim — duke bërë bizhuteri që bëhet pjesë e historisë suaj.",
+    "stat1_num": "20+",
+    "stat1_label": "Vjet eksperiencë",
+    "stat2_num": "500+",
+    "stat2_label": "Dizajne unike",
+    "stat3_num": "1000+",
+    "stat3_label": "Klientë të kënaqur"
+  },
+  "collections": {
+    "title": "Koleksionet tona",
+    "subtitle": "Zbulo copa të krijuara me pasion",
+    "cta": "Shiko të gjitha",
+    "items": [
+      { "id": 1, "name": "Gërdanet e arit", "desc": "Elegancë e përjetshme në ar 18k & 24k" },
+      { "id": 2, "name": "Unaza diamanti", "desc": "Duke festuar dashurinë dhe momentet e jetës" },
+      { "id": 3, "name": "Byzylykë", "desc": "Nga delikatja te guximshja" },
+      { "id": 4, "name": "Vathë", "desc": "Prekja e fundit e përsosur" },
+      { "id": 5, "name": "Sete Martese", "desc": "Filloni përjetësinë tuaj" },
+      { "id": 6, "name": "Porosi personale", "desc": "Vizioni juaj, zejtaria jonë" }
+    ]
+  },
+  "contact": {
+    "title": "Gjej na",
+    "subtitle": "Do të jemi të lumtur t'ju takojmë",
+    "address": "Qendra e Shkupit, Maqedonia e Veriut",
+    "hours_title": "Orari i punës",
+    "hours": "Hën – Sht: 09:00 – 19:00",
+    "phone": "+389 XX XXX XXX",
+    "email": "info@bisergold.com",
+    "instagram": "@bisergold",
+    "form_name": "Emri juaj",
+    "form_email": "Email-i juaj",
+    "form_message": "Mesazhi juaj",
+    "form_send": "Dërgo"
+  },
+  "footer": {
+    "tagline": "Punuar me duar me dashuri në Shkup",
+    "rights": "© 2024 Biser Gold. Të gjitha të drejtat e rezervuara."
+  }
+}
