@@ -10,15 +10,6 @@ const IMAGES = [
   '/images/store-front.jpg',
 ]
 
-const ACCENTS = [
-  'var(--purple)',
-  'var(--gold)',
-  'var(--teal)',
-  'var(--rose)',
-  'var(--purple-light)',
-  'var(--teal)',
-]
-
 export default function Collections() {
   const { t } = useTranslation()
   const items = t('collections.items', { returnObjects: true })
@@ -35,7 +26,6 @@ export default function Collections() {
           <article
             key={item.id}
             className="col-card"
-            style={{ '--accent': ACCENTS[i % ACCENTS.length] }}
           >
             <div className="col-card__img-wrap">
               <img src={IMAGES[i]} alt={item.name} className="col-card__img" loading="lazy" />
