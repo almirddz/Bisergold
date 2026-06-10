@@ -18,7 +18,7 @@ export const PRODUCTS = [
   },
   {
     id: 3, cat: 'necklaces',
-    img: 'https://images.unsplash.com/photo-1589128777073-263566ae5e4d?w=500&auto=format&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&auto=format&fit=crop&q=80',
     sq: 'Gërdan Delikat', mk: 'Деликатен Ланец', en: 'Delicate Chain',
     desc_sq: 'Zinxhir i hollë, ar 18k',
     desc_mk: 'Тенок ланец, 18к злато',
@@ -35,7 +35,7 @@ export const PRODUCTS = [
   },
   {
     id: 5, cat: 'rings',
-    img: 'https://images.unsplash.com/photo-1544376798-76b5c5cae41f?w=500&auto=format&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6?w=500&auto=format&fit=crop&q=80',
     sq: 'Unazë Anivesari', mk: 'Анивесарски Прстен', en: 'Anniversary Ring',
     desc_sq: 'Ar i bardhë me zirkonë',
     desc_mk: 'Бело злато со циркони',
@@ -43,7 +43,7 @@ export const PRODUCTS = [
   },
   {
     id: 6, cat: 'rings',
-    img: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500&auto=format&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1600721391689-2564bb8055de?w=500&auto=format&fit=crop&q=80',
     sq: 'Unazë Klasike Ari', mk: 'Класичен Златен Прстен', en: 'Classic Gold Ring',
     desc_sq: 'Ar 18k, dizajn klasik',
     desc_mk: 'Злато 18к, класичен дизајн',
@@ -60,11 +60,11 @@ export const PRODUCTS = [
   },
   {
     id: 8, cat: 'bracelets',
-    img: 'https://images.unsplash.com/photo-1573219127605-2803772a9ebe?w=500&auto=format&fit=crop&q=80',
-    sq: 'Byzylyk Kuban', mk: 'Кубан Нараквица', en: 'Cuban Bracelet',
-    desc_sq: 'Zinxhir kuban masiv, ar 18k',
-    desc_mk: 'Масивен кубан ланец, 18к',
-    desc_en: 'Solid Cuban link, 18k gold',
+    img: 'https://images.unsplash.com/photo-1561828995-aa79a2db86dd?w=500&auto=format&fit=crop&q=80',
+    sq: 'Byzylyk Ari Masiv', mk: 'Масивна Нараквица', en: 'Solid Gold Bangle',
+    desc_sq: 'Byzylyk masiv, ar 18k',
+    desc_mk: 'Масивна нараквица, 18к',
+    desc_en: 'Solid gold bangle, 18k',
   },
   // Earrings
   {
@@ -94,7 +94,7 @@ export const PRODUCTS = [
   },
   {
     id: 12, cat: 'wedding',
-    img: 'https://images.unsplash.com/photo-1587467512961-120760940315?w=500&auto=format&fit=crop&q=80',
+    img: 'https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?w=500&auto=format&fit=crop&q=80',
     sq: 'Set Angazhimi & Martese', mk: 'Годежен & Свадбен Сет', en: 'Engagement & Wedding Set',
     desc_sq: 'Unazë diamant + unazë martese',
     desc_mk: 'Годежен прстен + свадбен прстен',
