@@ -6,7 +6,7 @@ const IMAGES = [
   'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=600&auto=format&fit=crop&q=80',
   'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&auto=format&fit=crop&q=80',
   'https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?w=600&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1522707730527-83b11af7e543?w=600&auto=format&fit=crop&q=80',
+  'https://images.unsplash.com/photo-1606800052052-a08af7148866?w=600&auto=format&fit=crop&q=80',
 ]
 
 export default function Collections() {

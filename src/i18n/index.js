@@ -15,11 +15,13 @@ i18n
       mk: { translation: mk },
       sq: { translation: sq },
     },
-    fallbackLng: 'en',
+    fallbackLng: 'sq',
+    lng: undefined,
     interpolation: { escapeValue: false },
     detection: {
       order: ['localStorage', 'navigator'],
       caches: ['localStorage'],
+      lookupLocalStorage: 'bisergold_lang',
     },
   })
 

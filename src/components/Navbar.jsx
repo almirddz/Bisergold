@@ -4,9 +4,9 @@ import Logo from './Logo'
 import './Navbar.css'
 
 const LANGS = [
-  { code: 'en', label: 'EN' },
-  { code: 'mk', label: 'МК' },
   { code: 'sq', label: 'SQ' },
+  { code: 'mk', label: 'МК' },
+  { code: 'en', label: 'EN' },
 ]
 
 export default function Navbar() {
