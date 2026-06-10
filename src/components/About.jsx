@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import './About.css'
 
 export default function About() {
@@ -41,6 +42,10 @@ export default function About() {
               </div>
             ))}
           </div>
+
+          <Link to="/about" className="btn btn--outline about__more">
+            {t('about.view_more')} →
+          </Link>
         </div>
       </div>
     </section>

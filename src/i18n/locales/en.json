@@ -21,7 +21,8 @@
     "stat2_num": "500+",
     "stat2_label": "Unique Designs",
     "stat3_num": "1000+",
-    "stat3_label": "Happy Clients"
+    "stat3_label": "Happy Clients",
+    "view_more": "Learn more"
   },
   "collections": {
     "title": "Our Collections",
@@ -47,6 +48,8 @@
     "phone": "+389 XX XXX XXX",
     "email": "info@bisergold.com",
     "instagram": "@bisergold",
+    "label_address": "Address",
+    "label_phone": "Phone",
     "form_name": "Your Name",
     "form_email": "Your Email",
     "form_message": "Your Message",
@@ -106,6 +109,8 @@
     "budget_3": "300€ – 500€",
     "budget_4": "500€ – 1000€",
     "budget_5": "Over 1000€",
+    "info_response": "Reply within 24 hours",
+    "info_service": "Personalised service",
     "submit": "Send Request",
     "success_title": "Request sent!",
     "success_text": "We'll get back to you as soon as possible.",

@@ -21,7 +21,8 @@
     "stat2_num": "500+",
     "stat2_label": "Dizajne unike",
     "stat3_num": "1000+",
-    "stat3_label": "Klientë të kënaqur"
+    "stat3_label": "Klientë të kënaqur",
+    "view_more": "Mëso më shumë"
   },
   "collections": {
     "title": "Koleksionet tona",
@@ -47,6 +48,8 @@
     "phone": "+389 XX XXX XXX",
     "email": "info@bisergold.com",
     "instagram": "@bisergold",
+    "label_address": "Adresa",
+    "label_phone": "Telefon",
     "form_name": "Emri juaj",
     "form_email": "Email-i juaj",
     "form_message": "Mesazhi juaj",
@@ -106,6 +109,8 @@
     "budget_3": "300€ – 500€",
     "budget_4": "500€ – 1000€",
     "budget_5": "Mbi 1000€",
+    "info_response": "Përgjigje brenda 24 orësh",
+    "info_service": "Shërbim personal i personalizuar",
     "submit": "Dërgo Kërkesën",
     "success_title": "Kërkesa u dërgua!",
     "success_text": "Do t'ju kontaktojmë sa më shpejt të jetë e mundur.",

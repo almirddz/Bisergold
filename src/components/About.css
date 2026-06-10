@@ -72,7 +72,7 @@
   font-weight: 600;
   letter-spacing: 0.28em;
   text-transform: uppercase;
-  color: var(--purple);
+  color: var(--gold);
   margin-bottom: 1rem;
 }
 
@@ -109,7 +109,7 @@
   font-family: 'Jost', serif;
   font-size: 2.1rem;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--gold-dark), var(--purple));
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold-light));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -121,6 +121,10 @@
   color: var(--text-muted-dark);
   font-weight: 500;
   line-height: 1.3;
+}
+
+.about__more {
+  margin-top: 2rem;
 }
 
 @media (max-width: 860px) {

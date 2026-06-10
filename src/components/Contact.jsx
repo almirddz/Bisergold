@@ -25,7 +25,7 @@ export default function Contact() {
                 </svg>
               </div>
               <div className="contact__item-text">
-                <strong>Address</strong>
+                <strong>{t('contact.label_address')}</strong>
                 <span>{t('contact.address')}</span>
               </div>
             </li>
@@ -48,7 +48,7 @@ export default function Contact() {
                 </svg>
               </div>
               <div className="contact__item-text">
-                <strong>Phone</strong>
+                <strong>{t('contact.label_phone')}</strong>
                 <span>{t('contact.phone')}</span>
               </div>
             </li>

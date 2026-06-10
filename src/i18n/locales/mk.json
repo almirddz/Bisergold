@@ -21,7 +21,8 @@
     "stat2_num": "500+",
     "stat2_label": "Уникатни дизајни",
     "stat3_num": "1000+",
-    "stat3_label": "Задоволни клиенти"
+    "stat3_label": "Задоволни клиенти",
+    "view_more": "Дознај повеќе"
   },
   "collections": {
     "title": "Нашите колекции",
@@ -47,6 +48,8 @@
     "phone": "+389 XX XXX XXX",
     "email": "info@bisergold.com",
     "instagram": "@bisergold",
+    "label_address": "Адреса",
+    "label_phone": "Телефон",
     "form_name": "Вашето Име",
     "form_email": "Вашиот Емаил",
     "form_message": "Вашата Порака",
@@ -106,6 +109,8 @@
     "budget_3": "300€ – 500€",
     "budget_4": "500€ – 1000€",
     "budget_5": "Над 1000€",
+    "info_response": "Одговор во рок од 24 часа",
+    "info_service": "Персонализирана услуга",
     "submit": "Испрати Барање",
     "success_title": "Барањето е испратено!",
     "success_text": "Ќе ве контактираме наскоро.",
