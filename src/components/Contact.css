@@ -43,15 +43,21 @@
 }
 
 .contact__icon {
-  font-size: 1.2rem;
   flex-shrink: 0;
   width: 2.6rem;
   height: 2.6rem;
-  background: rgba(255, 255, 255, 0.06);
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--gold);
+}
+
+.contact__icon svg {
+  width: 1.1rem;
+  height: 1.1rem;
 }
 
 .contact__item-text {
@@ -65,7 +71,7 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--text-muted-light);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-weight: 600;
 }
 
@@ -125,7 +131,7 @@
   border-radius: 8px;
   padding: 0.85rem 1.1rem;
   color: var(--text-light);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Jost', sans-serif;
   font-size: 0.93rem;
   outline: none;
   transition: border-color 0.2s, background 0.2s;

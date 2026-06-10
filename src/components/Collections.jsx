@@ -2,12 +2,12 @@ import { useTranslation } from 'react-i18next'
 import './Collections.css'
 
 const IMAGES = [
-  'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1544376798-76b5c5cae41f?w=500&auto=format&fit=crop&q=80',
+  '/images/chain-necklace.jpg',
+  '/images/pendant-necklace.jpg',
   'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80',
   'https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?w=500&auto=format&fit=crop&q=80',
   'https://images.unsplash.com/photo-1515859005217-8a1f08111902?w=500&auto=format&fit=crop&q=80',
-  'https://images.unsplash.com/photo-1589128777073-263566ae5e4d?w=500&auto=format&fit=crop&q=80',
+  '/images/store-front.jpg',
 ]
 
 const ACCENTS = [

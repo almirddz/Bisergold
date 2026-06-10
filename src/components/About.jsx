@@ -16,8 +16,8 @@ export default function About() {
         <div className="about__image-wrap">
           <div className="about__img-frame">
             <img
-              src="https://images.unsplash.com/photo-1573408301185-9519f94816f0?w=700&auto=format&fit=crop&q=80"
-              alt="Biser Gold atelier"
+              src="/images/store-front.jpg"
+              alt="Biser Gold — Çarşıa e Shkupit"
               className="about__img"
             />
           </div>

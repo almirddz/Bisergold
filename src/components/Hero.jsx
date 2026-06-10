@@ -10,8 +10,8 @@ export default function Hero() {
     <section id="home" className="hero">
       <div className="hero__bg">
         <img
-          src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=1600&auto=format&fit=crop&q=80"
-          alt="Biser Gold jewelry"
+          src="/images/qarshia_skopje.jpg"
+          alt="Biser Gold — Çarşıa e Shkupit"
           className="hero__img"
         />
         <div className="hero__overlay" />

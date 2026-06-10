@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Jost', sans-serif;
   background: var(--bg-dark);
   color: var(--text-light);
   overflow-x: hidden;
@@ -37,7 +37,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 a {
@@ -67,7 +67,7 @@ section {
   text-transform: uppercase;
   cursor: pointer;
   transition: var(--transition);
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Jost', sans-serif;
   border: 2px solid transparent;
 }
 
