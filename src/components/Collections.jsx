@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import './Collections.css'
 
 const IMAGES = [
@@ -30,7 +31,7 @@ export default function Collections() {
             <div className="col-card__body">
               <h3 className="col-card__name">{item.name}</h3>
               <p className="col-card__desc">{item.desc}</p>
-              <span className="col-card__link">{t('collections.cta')} →</span>
+              <Link to="/collections" className="col-card__link">{t('collections.cta')} →</Link>
             </div>
           </article>
         ))}
@@ -47,9 +48,9 @@ export default function Collections() {
           </div>
           <h3 className="inquiry__title">{t('collections.inquiry_title')}</h3>
           <p className="inquiry__text">{t('collections.inquiry_text')}</p>
-          <a href="#contact" className="btn btn--gold inquiry__btn">
+          <Link to="/demande" className="btn btn--gold inquiry__btn">
             {t('collections.inquiry_cta')}
-          </a>
+          </Link>
         </article>
       </div>
     </section>

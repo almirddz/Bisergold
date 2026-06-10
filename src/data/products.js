@@ -1,0 +1,103 @@
+export const PRODUCTS = [
+  // Necklaces
+  {
+    id: 1, cat: 'necklaces',
+    img: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&auto=format&fit=crop&q=80',
+    sq: 'Gërdan Kuban 18k', mk: 'Кубан Ланец 18k', en: 'Cuban Chain 18k',
+    desc_sq: 'Zinxhir kuban klasik, ar 18 karate',
+    desc_mk: 'Класичен кубан ланец, 18к злато',
+    desc_en: 'Classic Cuban link chain, 18k gold',
+  },
+  {
+    id: 2, cat: 'necklaces',
+    img: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&auto=format&fit=crop&q=80',
+    sq: 'Gërdan Filigran', mk: 'Филигран Ѓердан', en: 'Filigree Necklace',
+    desc_sq: 'Punë filigranie, ar 24 karate',
+    desc_mk: 'Фирана работа, 24к злато',
+    desc_en: 'Delicate filigree work, 24k gold',
+  },
+  {
+    id: 3, cat: 'necklaces',
+    img: 'https://images.unsplash.com/photo-1589128777073-263566ae5e4d?w=500&auto=format&fit=crop&q=80',
+    sq: 'Gërdan Delikat', mk: 'Деликатен Ланец', en: 'Delicate Chain',
+    desc_sq: 'Zinxhir i hollë, ar 18k',
+    desc_mk: 'Тенок ланец, 18к злато',
+    desc_en: 'Fine delicate chain, 18k gold',
+  },
+  // Rings
+  {
+    id: 4, cat: 'rings',
+    img: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500&auto=format&fit=crop&q=80',
+    sq: 'Unazë Diamant Solitaire', mk: 'Солитер Прстен', en: 'Diamond Solitaire Ring',
+    desc_sq: 'Diamant natyral, montim klasik',
+    desc_mk: 'Природен дијамант, класична поставка',
+    desc_en: 'Natural diamond, classic setting',
+  },
+  {
+    id: 5, cat: 'rings',
+    img: 'https://images.unsplash.com/photo-1544376798-76b5c5cae41f?w=500&auto=format&fit=crop&q=80',
+    sq: 'Unazë Anivesari', mk: 'Анивесарски Прстен', en: 'Anniversary Ring',
+    desc_sq: 'Ar i bardhë me zirkonë',
+    desc_mk: 'Бело злато со циркони',
+    desc_en: 'White gold with zirconia',
+  },
+  {
+    id: 6, cat: 'rings',
+    img: 'https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=500&auto=format&fit=crop&q=80',
+    sq: 'Unazë Klasike Ari', mk: 'Класичен Златен Прстен', en: 'Classic Gold Ring',
+    desc_sq: 'Ar 18k, dizajn klasik',
+    desc_mk: 'Злато 18к, класичен дизајн',
+    desc_en: '18k gold, classic design',
+  },
+  // Bracelets
+  {
+    id: 7, cat: 'bracelets',
+    img: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&auto=format&fit=crop&q=80',
+    sq: 'Byzylyk Tenis', mk: 'Тенис Нараквица', en: 'Tennis Bracelet',
+    desc_sq: 'Zirkonë kristale, ar 18k',
+    desc_mk: 'Кристал циркони, 18к злато',
+    desc_en: 'Crystal zirconia, 18k gold',
+  },
+  {
+    id: 8, cat: 'bracelets',
+    img: 'https://images.unsplash.com/photo-1573219127605-2803772a9ebe?w=500&auto=format&fit=crop&q=80',
+    sq: 'Byzylyk Kuban', mk: 'Кубан Нараквица', en: 'Cuban Bracelet',
+    desc_sq: 'Zinxhir kuban masiv, ar 18k',
+    desc_mk: 'Масивен кубан ланец, 18к',
+    desc_en: 'Solid Cuban link, 18k gold',
+  },
+  // Earrings
+  {
+    id: 9, cat: 'earrings',
+    img: 'https://images.unsplash.com/photo-1535556116002-6281ff3e9f36?w=500&auto=format&fit=crop&q=80',
+    sq: 'Vathë Pika Ari', mk: 'Капка Обетки', en: 'Gold Drop Earrings',
+    desc_sq: 'Ar 18k, forma pika',
+    desc_mk: 'Злато 18к, форма капка',
+    desc_en: '18k gold, drop shape',
+  },
+  {
+    id: 10, cat: 'earrings',
+    img: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?w=500&auto=format&fit=crop&q=80',
+    sq: 'Vathë Stud Zirkon', mk: 'Штуц Обетки Циркон', en: 'Zirconia Stud Earrings',
+    desc_sq: 'Zirkonë natyralë, ar 18k',
+    desc_mk: 'Природни циркони, 18к',
+    desc_en: 'Natural zirconia, 18k gold',
+  },
+  // Wedding
+  {
+    id: 11, cat: 'wedding',
+    img: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?w=500&auto=format&fit=crop&q=80',
+    sq: 'Unaza Martese Klasike', mk: 'Класични Свадбени Прстени', en: 'Classic Wedding Bands',
+    desc_sq: 'Çift unazash martese, ar 18k',
+    desc_mk: 'Пар свадбени прстени, 18к',
+    desc_en: 'Wedding band set, 18k gold',
+  },
+  {
+    id: 12, cat: 'wedding',
+    img: 'https://images.unsplash.com/photo-1587467512961-120760940315?w=500&auto=format&fit=crop&q=80',
+    sq: 'Set Angazhimi & Martese', mk: 'Годежен & Свадбен Сет', en: 'Engagement & Wedding Set',
+    desc_sq: 'Unazë diamant + unazë martese',
+    desc_mk: 'Годежен прстен + свадбен прстен',
+    desc_en: 'Diamond engagement + wedding band',
+  },
+]

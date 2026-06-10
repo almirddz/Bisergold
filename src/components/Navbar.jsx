@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import Logo from './Logo'
 import './Navbar.css'
 
@@ -20,27 +21,19 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  const navLinks = [
-    { href: '#home', label: t('nav.home') },
-    { href: '#about', label: t('nav.about') },
-    { href: '#collections', label: t('nav.collections') },
-    { href: '#contact', label: t('nav.contact') },
-  ]
-
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar__inner">
-        <a href="#home" className="navbar__logo">
+        <Link to="/" className="navbar__logo">
           <Logo size={34} />
           <span className="navbar__logo-text">BISER <span>GOLD</span></span>
-        </a>
+        </Link>
 
         <ul className={`navbar__links ${menuOpen ? 'open' : ''}`}>
-          {navLinks.map(l => (
-            <li key={l.href}>
-              <a href={l.href} onClick={() => setMenuOpen(false)}>{l.label}</a>
-            </li>
-          ))}
+          <li><a href="/#home" onClick={() => setMenuOpen(false)}>{t('nav.home')}</a></li>
+          <li><a href="/#about" onClick={() => setMenuOpen(false)}>{t('nav.about')}</a></li>
+          <li><Link to="/collections" onClick={() => setMenuOpen(false)}>{t('nav.collections')}</Link></li>
+          <li><a href="/#contact" onClick={() => setMenuOpen(false)}>{t('nav.contact')}</a></li>
         </ul>
 
         <div className="navbar__actions">
