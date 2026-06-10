@@ -43,7 +43,7 @@ export default function About() {
             ))}
           </div>
 
-          <Link to="/about" className="btn btn--outline about__more">
+          <Link to="/about" className="btn btn--gold about__more">
             {t('about.view_more')} →
           </Link>
         </div>
