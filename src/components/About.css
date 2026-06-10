@@ -56,7 +56,7 @@
 }
 
 .about__accent-card strong {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Jost', serif;
   font-size: 1rem;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .stat__num {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Jost', serif;
   font-size: 2.1rem;
   font-weight: 700;
   background: linear-gradient(135deg, var(--gold-dark), var(--purple));

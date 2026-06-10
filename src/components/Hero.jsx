@@ -24,7 +24,7 @@ export default function Hero() {
       </div>
 
       <div className="hero__content">
-        <div className="hero__badge">◆ Skopje, North Macedonia ◆</div>
+        <div className="hero__badge">Skopje, North Macedonia</div>
         <h1 className="hero__title">{t('hero.tagline')}</h1>
         <p className="hero__subtitle">{t('hero.subtitle')}</p>
         <div className="hero__actions">

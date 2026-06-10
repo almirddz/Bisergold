@@ -17,7 +17,7 @@ export default function Collections() {
   return (
     <section id="collections" className="collections">
       <div className="collections__header">
-        <span className="collections__eyebrow">◆ {t('collections.title')} ◆</span>
+        <span className="collections__eyebrow">{t('collections.title')}</span>
         <h2 className="collections__title">{t('collections.subtitle')}</h2>
       </div>
 

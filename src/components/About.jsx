@@ -22,14 +22,13 @@ export default function About() {
             />
           </div>
           <div className="about__accent-card">
-            <span className="about__accent-icon">◆</span>
             <strong>Biser Gold</strong>
             <span>Est. 2000</span>
           </div>
         </div>
 
         <div className="about__content">
-          <span className="about__eyebrow">◆ {t('about.title')} ◆</span>
+          <span className="about__eyebrow">{t('about.title')}</span>
           <h2 className="about__title">{t('about.subtitle')}</h2>
           <p className="about__text">{t('about.text1')}</p>
           <p className="about__text">{t('about.text2')}</p>

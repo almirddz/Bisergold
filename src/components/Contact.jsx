@@ -13,7 +13,7 @@ export default function Contact() {
     <section id="contact" className="contact">
       <div className="contact__container">
         <div className="contact__info">
-          <span className="contact__eyebrow">◆ {t('contact.title')} ◆</span>
+          <span className="contact__eyebrow">{t('contact.title')}</span>
           <h2 className="contact__title">{t('contact.subtitle')}</h2>
 
           <ul className="contact__details">
