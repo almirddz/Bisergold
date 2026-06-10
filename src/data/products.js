@@ -2,7 +2,7 @@ export const PRODUCTS = [
   // Necklaces
   {
     id: 1, cat: 'necklaces',
-    img: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&auto=format&fit=crop&q=80',
+    img: '/images/chain-necklace.jpg',
     sq: 'Gërdan Kuban 18k', mk: 'Кубан Ланец 18k', en: 'Cuban Chain 18k',
     desc_sq: 'Zinxhir kuban klasik, ar 18 karate',
     desc_mk: 'Класичен кубан ланец, 18к злато',
@@ -10,7 +10,7 @@ export const PRODUCTS = [
   },
   {
     id: 2, cat: 'necklaces',
-    img: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&auto=format&fit=crop&q=80',
+    img: '/images/pendant-necklace.jpg',
     sq: 'Gërdan Filigran', mk: 'Филигран Ѓердан', en: 'Filigree Necklace',
     desc_sq: 'Punë filigranie, ar 24 karate',
     desc_mk: 'Фирана работа, 24к злато',

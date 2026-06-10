@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { PRODUCTS } from '../data/products'
 import './CollectionsPage.css'
 
@@ -15,7 +15,13 @@ const FILTERS = [
 
 export default function CollectionsPage() {
   const { t, i18n } = useTranslation()
-  const [active, setActive] = useState('all')
+  const [searchParams] = useSearchParams()
+  const [active, setActive] = useState(() => searchParams.get('cat') || 'all')
+
+  useEffect(() => {
+    const cat = searchParams.get('cat')
+    if (cat) setActive(cat)
+  }, [searchParams])
 
   const lang = i18n.language.startsWith('mk') ? 'mk' : i18n.language.startsWith('en') ? 'en' : 'sq'
 
