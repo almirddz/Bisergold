@@ -27,13 +27,15 @@
     "title": "Koleksionet tona",
     "subtitle": "Zbulo copa të krijuara me pasion",
     "cta": "Shiko të gjitha",
+    "inquiry_title": "Keni një model në mendje?",
+    "inquiry_text": "Keni parë një copë diku dhe pyesni veten nëse e kemi ose mund ta gjejmë? Na dërgoni një foto ose përshkrim dhe do të bëjmë çmos.",
+    "inquiry_cta": "Na pyesni",
     "items": [
       { "id": 1, "name": "Gërdanet e arit", "desc": "Elegancë e përjetshme në ar 18k & 24k" },
       { "id": 2, "name": "Unaza diamanti", "desc": "Duke festuar dashurinë dhe momentet e jetës" },
       { "id": 3, "name": "Byzylykë", "desc": "Nga delikatja te guximshja" },
       { "id": 4, "name": "Vathë", "desc": "Prekja e fundit e përsosur" },
-      { "id": 5, "name": "Sete Martese", "desc": "Filloni përjetësinë tuaj" },
-      { "id": 6, "name": "Porosi personale", "desc": "Vizioni juaj, zejtaria jonë" }
+      { "id": 5, "name": "Sete Martese", "desc": "Filloni përjetësinë tuaj" }
     ]
   },
   "contact": {

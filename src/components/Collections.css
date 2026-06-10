@@ -102,6 +102,50 @@
   letter-spacing: 0.12em;
 }
 
+/* Inquiry card */
+.col-card--inquiry {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2.5rem 2rem;
+  background: rgba(201, 160, 85, 0.06);
+  border: 1px solid rgba(201, 160, 85, 0.25);
+  min-height: 280px;
+}
+
+.col-card--inquiry:hover {
+  background: rgba(201, 160, 85, 0.1);
+  border-color: var(--gold);
+  transform: translateY(-6px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.35), 0 0 0 1px var(--gold);
+}
+
+.inquiry__icon {
+  color: var(--gold);
+  opacity: 0.8;
+}
+
+.inquiry__title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-light);
+  line-height: 1.2;
+}
+
+.inquiry__text {
+  font-size: 0.88rem;
+  color: var(--text-muted-light);
+  line-height: 1.6;
+}
+
+.inquiry__btn {
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.6rem;
+  font-size: 0.82rem;
+}
+
 @media (max-width: 900px) {
   .collections__grid { grid-template-columns: repeat(2, 1fr); }
 }

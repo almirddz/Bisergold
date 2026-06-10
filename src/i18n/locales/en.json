@@ -27,13 +27,15 @@
     "title": "Our Collections",
     "subtitle": "Discover pieces crafted with passion",
     "cta": "View All",
+    "inquiry_title": "Have a model in mind?",
+    "inquiry_text": "Did you see a piece somewhere and wonder if we have it — or can find it? Send us a photo or description and we'll do our best.",
+    "inquiry_cta": "Ask us",
     "items": [
       { "id": 1, "name": "Gold Necklaces", "desc": "Timeless elegance in 18k & 24k gold" },
       { "id": 2, "name": "Diamond Rings", "desc": "Celebrating love and milestones" },
       { "id": 3, "name": "Bracelets", "desc": "From delicate to bold" },
       { "id": 4, "name": "Earrings", "desc": "The perfect finishing touch" },
-      { "id": 5, "name": "Wedding Sets", "desc": "Begin your forever" },
-      { "id": 6, "name": "Custom Orders", "desc": "Your vision, our craft" }
+      { "id": 5, "name": "Wedding Sets", "desc": "Begin your forever" }
     ]
   },
   "contact": {
