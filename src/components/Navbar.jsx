@@ -31,7 +31,7 @@ export default function Navbar() {
 
         <ul className={`navbar__links ${menuOpen ? 'open' : ''}`}>
           <li><a href="/#home" onClick={() => setMenuOpen(false)}>{t('nav.home')}</a></li>
-          <li><a href="/#about" onClick={() => setMenuOpen(false)}>{t('nav.about')}</a></li>
+          <li><Link to="/about" onClick={() => setMenuOpen(false)}>{t('nav.about')}</Link></li>
           <li><Link to="/collections" onClick={() => setMenuOpen(false)}>{t('nav.collections')}</Link></li>
           <li><a href="/#contact" onClick={() => setMenuOpen(false)}>{t('nav.contact')}</a></li>
         </ul>
