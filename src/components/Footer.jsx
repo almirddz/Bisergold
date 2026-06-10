@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import Logo from './Logo'
 import './Footer.css'
 
 export default function Footer() {
@@ -8,7 +9,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer__inner">
         <div className="footer__brand">
-          <span className="footer__diamond">◆</span>
+          <Logo size={42} />
           <span className="footer__name">BISER <span>GOLD</span></span>
         </div>
 

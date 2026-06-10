@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import Logo from './Logo'
 import './Navbar.css'
 
 const LANGS = [
@@ -30,7 +31,7 @@ export default function Navbar() {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar__inner">
         <a href="#home" className="navbar__logo">
-          <span className="navbar__logo-icon">◆</span>
+          <Logo size={34} />
           <span className="navbar__logo-text">BISER <span>GOLD</span></span>
         </a>
 
